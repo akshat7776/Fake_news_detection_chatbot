@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 How to run live:
 
-Run  the chatbot on Streamlit Cloud: https://chatbot-akshatk24.streamlit.app/
+Run  the chatbot on Streamlit Cloud: https://akshatk24.streamlit.app/
 
 Hugging Face model:
 The fine-tuned model is hosted on Hugging Face: https://huggingface.co/akshk24/chatbot
