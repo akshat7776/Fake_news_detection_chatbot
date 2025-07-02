@@ -33,7 +33,7 @@ How to run locally:
 
 1. Clone the repository: 
 ```Bash
-git clone https://github.com/akshat7776/Fake_news_detection_chatbot/tree/main/Chatbot_240085.git
+git clone https://github.com/akshat7776/Fake_news_detection_chatbot
 cd Fake_news_detection_chatbot/Chatbot_240085
 ```
 2. Install dependencies:
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 ```
 3. Run the Streamlit app:
 ```Bash
-streamlit run chatbot.py
+python -m streamlit run chatbot.py
 ```
 4. Open your browser and visit: `http://localhost:8501`
 
