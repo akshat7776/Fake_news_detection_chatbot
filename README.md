@@ -16,7 +16,7 @@ How it works:
 5. Sample video demonstration: https://drive.google.com/drive/folders/1MnMt4AqL6PeJMxQSdkiZU_F2GxplBQah?usp=drive_link
    
 Dataset & Training:
-1. Data preprocessing & model fine-tuning are in “chatbot_notebook.ipynb”
+1. Data preprocessing & model fine-tuning are in “chatbot_notebook.ipynb” https://github.com/akshat7776/Fake_news_detection_chatbot/blob/0e0668d2575cdbbee6f7660b6336383f9ee4521b/Chatbot_240085/chatbot_notebook.ipynb
 2. Trained model hosted on Hugging Face: https://huggingface.co/akshk24/chatbot
 3. Training dataset & processed data available here: https://drive.google.com/drive/folders/1MnMt4AqL6PeJMxQSdkiZU_F2GxplBQah?usp=sharing
   
@@ -38,13 +38,10 @@ huggingface_hub
 How to run locally:
 
 1. Clone the repository: https://github.com/akshat7776/Fake_news_detection_chatbot/tree/main/Chatbot_240085
-
 2. Install dependencies:
 pip install -r requirements.txt
-
 3. Run the Streamlit app:
 “streamlit run chatbot.py”
-
 4. Open your browser and visit: http://localhost:8501
 
 How to run live (Streamlit Cloud):
