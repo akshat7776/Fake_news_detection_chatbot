@@ -13,13 +13,12 @@ How it works:
 2. Text is tokenized and passed to the fine-tuned BERT model
 3. Model predicts **Fake** or **True** with a confidence score
 4. The chatbot displays the result
-5. Sample video demonstration: https://drive.google.com/drive/folders/1MnMt4AqL6PeJMxQSdkiZU_F2GxplBQah?usp=drive_link
+5. Sample video demonstration: `https://drive.google.com/drive/folders/1MnMt4AqL6PeJMxQSdkiZU_F2GxplBQah?usp=drive_link`
    
 Dataset & Training:
-1. Data preprocessing & model fine-tuning are in “chatbot_notebook.ipynb” https://github.com/akshat7776/Fake_news_detection_chatbot/blob/0e0668d2575cdbbee6f7660b6336383f9ee4521b/Chatbot_240085/chatbot_notebook.ipynb
-2. Trained model hosted on Hugging Face: https://huggingface.co/akshk24/chatbot
-3. Training dataset & processed data available here: https://drive.google.com/drive/folders/1MnMt4AqL6PeJMxQSdkiZU_F2GxplBQah?usp=sharing
-
+1. Data preprocessing & model fine-tuning are in “chatbot_notebook.ipynb” `https://github.com/akshat7776/Fake_news_detection_chatbot/blob/0e0668d2575cdbbee6f7660b6336383f9ee4521b/Chatbot_240085/chatbot_notebook.ipynb`
+2. Trained model hosted on Hugging Face: `https://huggingface.co/akshk24/chatbot`
+3. Training dataset & processed data available here: `https://drive.google.com/drive/folders/1MnMt4AqL6PeJMxQSdkiZU_F2GxplBQah?usp=sharing`
 Contents of `requirements.txt`:
 ```
 streamlit
@@ -41,7 +40,7 @@ pip install -r requirements.txt
 ```
 3. Run the Streamlit app:
 ```Bash
-cd ./(Folder of streamlit.py)
+cd ./ (folder where chatbot.py is located)
 streamlit run chatbot.py
 ```
 4. Open your browser and visit: `http://localhost:8501`
