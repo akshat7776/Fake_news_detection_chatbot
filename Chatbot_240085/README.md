@@ -34,6 +34,9 @@ How to run locally:
 1. Clone the repository: 
 ```Bash
 git clone https://github.com/akshat7776/Fake_news_detection_chatbot
+```
+2. Direct to folder:
+```Bash
 cd Fake_news_detection_chatbot/Chatbot_240085
 ```
 2. Install dependencies:
