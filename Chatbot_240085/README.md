@@ -19,6 +19,7 @@ Dataset & Training:
 1. Data preprocessing & model fine-tuning are in “chatbot_notebook.ipynb” `https://github.com/akshat7776/Fake_news_detection_chatbot/blob/0e0668d2575cdbbee6f7660b6336383f9ee4521b/Chatbot_240085/chatbot_notebook.ipynb`
 2. Trained model hosted on Hugging Face: `https://huggingface.co/akshk24/chatbot`
 3. Training dataset & processed data available here: `https://drive.google.com/drive/folders/1MnMt4AqL6PeJMxQSdkiZU_F2GxplBQah?usp=sharing`
+
 Contents of `requirements.txt`:
 ```
 streamlit
