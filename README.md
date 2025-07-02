@@ -7,13 +7,13 @@ Features of a chatbot:
 1. Detects **fake vs. true** news articles   
 2. Shows **prediction confidence score**
 3. Model hosted on Hugging Face for easy deployment
-4. Sample video demonstration: https://drive.google.com/drive/folders/1MnMt4AqL6PeJMxQSdkiZU_F2GxplBQah?usp=drive_link
 
 How it works: 
 1. The user enters the news article text into the chatbot
 2. Text is tokenized and passed to the fine-tuned BERT model
 3. Model predicts **Fake** or **True** with a confidence score
 4. The chatbot displays the result
+5. Sample video demonstration: https://drive.google.com/drive/folders/1MnMt4AqL6PeJMxQSdkiZU_F2GxplBQah?usp=drive_link
    
 Dataset & Training:
 1. Data preprocessing & model fine-tuning are in “chatbot_notebook.ipynb”
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 3. Run the Streamlit app:
 “streamlit run chatbot.py”
 
-4. Open your browser → visit: http://localhost:8501
+4. Open your browser and visit: http://localhost:8501
 
 How to run live (Streamlit Cloud):
 
