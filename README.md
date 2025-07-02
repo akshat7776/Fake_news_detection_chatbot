@@ -2,11 +2,12 @@
 
 This project is a Streamlit-based chatbot that determines whether a given news article or text snippet is fake or true using a fine-tuned BERT model.
 The model is hosted on Hugging Face Hub, and the chatbot can be tested both locally and online.
-Features
-Detects fake vs. true news  
-Shows prediction confidence score
-Model hosted on Hugging Face for easy deployment
-Dependencies
+Features of a chatbot:
+1. Detects fake vs true news  
+2. Shows prediction confidence score
+3. Model hosted on Hugging Face for easy deployment
+
+Dependencies to run chatbot:
 
 Install required Python packages:
 pip install -r requirements.txt
